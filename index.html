@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,45 +8,151 @@
     <title>Juan Sebastian Umpele</title>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-                dropShadow: {
-                    '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
-                    '4xl': [
-                        '0 0px 45px rgba(111, 168, 220)',
-                        '0 45px 65px rgba(0, 0, 0, 0.15)'
-                    ]
-                  }
+            theme: {
+                extend: {
+                    dropShadow: {
+                        '3xl': '0 8px 5px rgba(111	182	245)',
+                        '4xl': [
+                            '0 0px 45px rgba(111, 168, 220)',
+                            '0 45px 65px rgba(0, 0, 0, 0.15)'
+                        ]
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 </head>
+
 <body class="bg-gradient-to-r from-[#1A2980] via-[#a17fe0] to-[#26D0CE]">
     <main class="m-14 drop-shadow-4xl">
         <!-- name and description -->
-        <section class="text-white bg-[#1979e7] rounded-t-lg p-20 ">
-            <h1 class="font-bold text-4xl m-2">Halo, Saya Juan Sebastian Umpele!</h1>
-            <p class="m-2">Saya adalah Mahasiswa aktif Universitas Negeri Gorontalo, yang sangat tertarik dengan bidang IT</p>
+        <section class="text-white bg-[#1979e7] rounded-t-lg p-10 lg:p-20 ">
+            <h1 class="font-bold text-3xl lg:text-4xl hover:font-extrabold">Halo, Saya Juan Sebastian Umpele!</h1>
+            <p class="p-1">Saya adalah Mahasiswa aktif Universitas Negeri Gorontalo, yang sangat tertarik dengan bidang
+                IT, yang juga sangat senang menikmati dan mengabadikan sebuah pemandangan dengan mengambil gambar dan
+                mempostingnya di media sosial</p>
         </section>
         <!-- education -->
         <section class="bg-slate-100">
-            <h1 class="font-bold text-2xl px-20 pt-8 pb-4">EDUCATION</h1>
-            <div class="flex gap-40 px-20 pb-6">
+            <h1 class="font-bold p-8 text-2xl lg:px-20">EDUCATION</h1>
+            <div class="flex flex-wrap gap-5 px-20 pb-6 sm:flex-wrap lg:gap-20">
                 <div>
                     <h2 class="font-bold">SMP Negeri 4 Passi Timur</h2>
-                    <p>(2013 - 2016)</p>
+                    <p class="text-sm">(2013 - 2016)</p>
                 </div>
                 <div>
                     <h2 class="font-bold">SMK Negeri 4 Gorontalo</h2>
-                    <p>(2016 - 2019)</p>
+                    <p class="text-sm">(2016 - 2019)</p>
                 </div>
                 <div>
                     <h2 class="font-bold">Universitas Negeri Gorontalo<h2>
-                    <p>(2019 - Sekarang)</p>
+                            <p class="text-sm">(2019 - Sekarang)</p>
                 </div>
             </div>
         </section>
+        <!-- protofolio -->
+        <section class="bg-slate-100 rounded-b-lg">
+            <h1 class="font-bold pt-8 pb-4 p-8 text-2xl lg:px-20">PORTOFOLIO</h1>
+            <article class="flex flex-wrap gap-5 pb-8 px-10 justify-center">
+                <div
+                    class="w-[250px] bg-slate-100 drop-shadow-md rounded-lg hover:drop-shadow-3xl hover:bg-[#1979e7] hover:text-white">
+                    <a href="assets/2.png" target="_blank">
+                        <img src="assets/2.png" alt="foto-diyonumo" class="rounded-t-lg pb-4">
+                    </a>
+                    <h2 class="px-4 font-bold">DIYONUMO</h2>
+                    <p class="mb-6 p-4 text-sm">Hasil dari potret Gunung Diyonumo yang indah</p>
+                </div>
+                <div
+                    class="w-[250px] bg-slate-100 drop-shadow-md rounded-lg hover:drop-shadow-3xl hover:bg-[#1979e7] hover:text-white">
+                    <a href="assets/3.png" target="_blank">
+                        <img src="assets/3.png" alt="foto-pantai-kurenai" class="rounded-t-lg pb-4">
+                    </a>
+                    <h2 class="px-4 font-bold">PANTAI KURENAI</h2>
+                    <p class="mb-6 p-4 text-sm">Hasil potret Pantai Kurenai yang diambil dari atas</p>
+                </div>
+                <div
+                    class="w-[250px] bg-slate-100 drop-shadow-md rounded-lg hover:drop-shadow-3xl hover:bg-[#1979e7] hover:text-white">
+                    <a href="assets/4.png" target="_blank">
+                        <img src="assets/4.png" alt="foto tangan sunset" class="rounded-t-lg pb-4">
+                    </a>
+                    <h2 class="px-4 font-bold">TANGAN SUNSET</h2>
+                    <p class="mb-6 p-4 text-sm">Hasil dari potret pada sore hari kombinasi tangan dan matahari</p>
+                </div>
+                <div
+                    class="w-[250px] bg-slate-100 drop-shadow-md rounded-lg hover:drop-shadow-3xl hover:bg-[#1979e7] hover:text-white">
+                    <a href="assets/5.png" target="_blank">
+                        <img src="assets/5.png" alt="foto pukulan ombak" class="rounded-t-lg pb-4">
+                    </a>
+                    <h2 class="px-4 font-bold">PUKULAN OMBAK</h2>
+                    <p class="mb-6 p-4 text-sm">Hasil potret dari ombak yang menabrak batu dipinggir laut</p>
+                </div>
+                <div
+                    class="w-[250px] bg-slate-100 drop-shadow-md rounded-lg hover:drop-shadow-3xl hover:bg-[#1979e7] hover:text-white">
+                    <a href="assets/7.png" target="_blank">
+                        <img src="assets/7.png" alt="foto sunrise" class="rounded-t-lg pb-4">
+                    </a>
+                    <h2 class="px-4 font-bold">SUNRISE</h2>
+                    <p class="mb-6 p-4 text-sm">Hasil potret dari pegunungan dipagi hari yang cerah </p>
+                </div>
+                <div
+                    class="w-[250px] bg-slate-100 drop-shadow-md rounded-lg hover:drop-shadow-3xl hover:bg-[#1979e7] hover:text-white">
+                    <a href="assets/13.jpeg" target="_blank">
+                        <img src="assets/13.jpeg" alt="foto sunset fishing" class="rounded-t-lg pb-4">
+                    </a>
+                    <h2 class="px-4 font-bold">SUNSET FISHING</h2>
+                    <p class="mb-6 p-4 text-sm">Hasil potret pemancing ikan di sore hari</p>
+                </div>
+                <div
+                    class="w-[250px] bg-slate-100 drop-shadow-md rounded-lg hover:drop-shadow-3xl hover:bg-[#1979e7] hover:text-white">
+                    <a href="assets/8.jpeg" target="_blank">
+                        <img src="assets/8.jpeg" alt="foto danau" class="rounded-t-lg pb-4">
+                    </a>
+                    <h2 class="px-4 font-bold">DANAU</h2>
+                    <p class="mb-6 p-4 text-sm">Hasil potret dari Danau diwaktu mendung dan berembun </p>
+                </div>
+                <div
+                    class="w-[250px] bg-slate-100 drop-shadow-md rounded-lg hover:drop-shadow-3xl hover:bg-[#1979e7] hover:text-white">
+                    <a href="assets/12.jpeg" target="_blank">
+                        <img src="assets/12.jpeg" alt="foto sunset beach" class="rounded-t-lg pb-4">
+                    </a>
+                    <h2 class="px-4 font-bold">SUNSET BEACH</h2>
+                    <p class="mb-6 p-4 text-sm">Hasil potret pantai dan langit di sore hari </p>
+                </div>
+                <div
+                    class="w-[250px] bg-slate-100 drop-shadow-md rounded-lg hover:drop-shadow-3xl hover:bg-[#1979e7] hover:text-white">
+                    <a href="assets/11.jpeg" target="_blank">
+                        <img src="assets/11.jpeg" alt="foto taman" class="rounded-t-lg pb-4">
+                    </a>
+                    <h2 class="px-4 font-bold">TAMAN</h2>
+                    <p class="mb-6 p-4 text-sm">Hasil potret dari taman di pegunungan</p>
+                </div>
+                <div
+                    class="w-[250px] bg-slate-100 drop-shadow-md rounded-lg hover:drop-shadow-3xl hover:bg-[#1979e7] hover:text-white">
+                    <a href="assets/1.png" target="_blank">
+                        <img src="assets/1.png" alt="foto desa religi" class="rounded-t-lg pb-4">
+                    </a>
+                    <h2 class="px-4 font-bold">DESA RELIGI</h2>
+                    <p class="mb-6 p-4 text-sm">Hasil potret dari pondok Desa Religi di Gorontalo </p>
+                </div>
+                <div
+                    class="w-[250px] bg-slate-100 drop-shadow-md rounded-lg hover:drop-shadow-3xl hover:bg-[#1979e7] hover:text-white">
+                    <a href="assets/6.jpeg" target="_blank">
+                        <img src="assets/6.jpeg" alt="foto kebun kol" class="rounded-t-lg pb-4">
+                    </a>
+                    <h2 class="px-4 font-bold">KEBUN KOL</h2>
+                    <p class="mb-6 p-4 text-sm">Hasil potret dari perkebunan sayur Kol </p>
+                </div>
+                <div
+                    class="w-[250px] bg-slate-100 drop-shadow-md rounded-lg hover:drop-shadow-3xl hover:bg-[#1979e7] hover:text-white">
+                    <a href="assets/10.jpeg" target="_blank">
+                        <img src="assets/10.jpeg" alt="foto sawah" class="rounded-t-lg pb-4">
+                    </a>
+                    <h2 class="px-4 font-bold">SAWAH</h2>
+                    <p class="mb-6 p-4 text-sm">Hasil potret dari sawah dipagi hari</p>
+                </div>
+            </article>
+        </section>
     </main>
 </body>
+
 </html>
